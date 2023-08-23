@@ -1,0 +1,66 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+
+.wrapper{
+    border: 1px solid black;
+    background-color:cadetblue;
+    color: rgb(255, 255, 255);
+    margin: 4vw 20vw;
+    padding: 2vw;
+
+}
+
+.res{
+    height: 50px; 
+    width: 100%; 
+    border: 3px solid black; 
+    background-color: rgb(185, 250, 197);
+    display: block;
+    max-width: 550px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+
+}
+
+form {
+    display: inline-block;   
+}
+
+input{
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    border: 3px solid black;
+    background-color:rgb(185, 208, 250);
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+label{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+button{
+    color: brown;
+    font-size: large;
+    font-weight: bolder;
+    padding: 8px;
+    background-color: bisque;
+    border: 1px solid black ;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    font-size: x-large;
+    font-weight: 1000;
+    background-color: rgb(255, 195, 121);
+    border: 2px solid brown;
+}
